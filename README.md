@@ -8,4 +8,7 @@ A trading bot and system for backtesting Forex strategies in Python.
 - The documentation can be found at: [OANDA Developer API](https://developer.oanda.com/rest-live-v20/instrument-ep/)
 - Sample requests include:
   - `https://api-fxpractice.oanda.com/v3/instruments/EUR_USD/candles?count=10&granularity=H1` - Retrieves the 10 most recent EUR/USD 1-hour candles.
-  - `https://api-fxpractice.oanda.com/v3/accounts/{account_number}/instruments` - Retrieves the instruments available for a particular account.
+  - `https://api-fxpractice.oanda.com/v3/accounts/{account_number}/instruments` - Retrieves the instruments available for a particular account </br>
+
+Notebooks contain the interactive sessions with the Oanda api </br>
+Python scripts contain the logic to the system bot
